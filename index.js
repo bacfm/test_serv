@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res) => {
+app.get('/get_data', (req, res) => {
 	const DATA = [
 		{name: 'Sergei Kolomichenko', student: true, group: 'EK 051-16-1'},
 		{name: 'Bobrovskiy Roman', student: true, group: 'EK 051-16-1'},
